@@ -1,0 +1,228 @@
+tt {
+  padding: 1px 5px 1px;
+  margin: 0 1px;
+  background: #eaeaea;
+  background: rgba(0,0,0,.07);
+  font-size: 13px;
+  font-family: Consolas,Monaco,monospace;
+  unicode-bidi: embed;
+}
+.about li {
+  list-style-type: square;
+  margin: 5px 0px 3px 35px;
+}
+.wp-picker-container {
+  display:table;
+}
+
+#yadonate {
+  color: #000;
+  cursor: pointer;
+  text-decoration: none;
+  background-color:#ffdb4d;
+  padding: 3px 26px 4px 25px;
+  font-size: 15px;
+  border-radius: 3px;
+  border: 1px solid rgba(0,0,0,.1);
+  transition: background-color .1s ease-out 0s;
+}
+#yadonate:hover {
+  background-color:#fc0;
+}
+#yadonate:focus,#yadonate:active {
+  outline:none;
+  box-shadow: none;
+}
+#close-donat {
+  float:right;
+  color:#cac0c0;
+}
+#close-donat:hover {
+  color:black;
+  cursor: pointer;
+}
+#close-about {
+  float:right;
+  color:#cac0c0;
+}
+#close-about:hover {
+  color:black;
+  cursor: pointer;
+}
+#restore-hide-blocks {
+  float:right;
+  color:#cac0c0;
+  margin-top:8px;
+}
+#restore-hide-blocks:hover {
+  color:black;
+  cursor: pointer;
+}
+.hide {
+  display:none;
+}
+
+.switch-field {
+  display: inline-block;
+}
+.switch-field input {
+  position: absolute !important;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  width: 1px;
+  border: 0;
+  overflow: hidden;
+}
+.switch-field label {
+  float: left;
+}
+.switch-field label {
+  font-family: Consolas,Monaco,monospace;
+  unicode-bidi: embed;  
+  display: inline-block;
+  width: 60px;
+  background-color: #f7f7f7;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 14px;
+  font-weight: normal;
+  text-align: center;
+  text-shadow: none;
+  padding: 2px 14px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  transition:all 0.1s ease-in-out;
+}
+.switch-field label:hover {
+  cursor: pointer;
+}
+.switch-field input:checked + label {
+  background-color: #0085ba;
+  color:white;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.switch-field label:first-of-type {
+  border-radius: 4px 0 0 4px;
+}
+.switch-field label:last-of-type {
+  border-radius: 0 4px 4px 0;
+}
+
+.new {
+  color: #fff;
+  background-color: #008ec2;
+  border-radius: 6px;
+  display: inline-block;
+  padding-left: 4px;
+  padding-right: 4px;
+  text-align: center;
+  font-size: 10px;
+  vertical-align: super;
+}
+
+/* блок восстановления css старого wordpress begin */
+.foptions .postbox {
+  border: 1px solid #D8D8D8;
+}
+.foptions input[type=color],
+.foptions input[type=date],
+.foptions input[type=datetime-local],
+.foptions input[type=datetime],
+.foptions input[type=email],
+.foptions input[type=month],
+.foptions input[type=number],
+.foptions input[type=password],
+.foptions input[type=search],
+.foptions input[type=tel],
+.foptions input[type=text],
+.foptions input[type=time],
+.foptions input[type=url],
+.foptions input[type=week],
+.foptions select,
+.foptions textarea {
+  border: 1px solid #c4bfbf;
+  border-radius: 4px;
+}
+.foptions input[type=checkbox],
+.foptions input[type=radio] {
+  border: 1px solid #b4b9be;
+  border-radius: 3px;
+}
+.foptions input[type=checkbox]:focus,
+.foptions input[type=color]:focus,
+.foptions input[type=date]:focus,
+.foptions input[type=datetime-local]:focus,
+.foptions input[type=datetime]:focus,
+.foptions input[type=email]:focus,
+.foptions input[type=month]:focus,
+.foptions input[type=number]:focus,
+.foptions input[type=password]:focus,
+.foptions input[type=radio]:focus,
+.foptions input[type=search]:focus,
+.foptions input[type=tel]:focus,
+.foptions input[type=text]:focus,
+.foptions input[type=time]:focus,
+.foptions input[type=url]:focus,
+.foptions input[type=week]:focus,
+.foptions select:focus,
+.foptions textarea:focus {
+  border-color: #5b9dd9;
+  box-shadow: 0 0 2px rgba(30,140,190,.8);
+  outline: 2px solid transparent;
+}
+.foptions input[type=date],
+.foptions input[type=datetime-local],
+.foptions input[type=datetime],
+.foptions input[type=email],
+.foptions input[type=month],
+.foptions input[type=number],
+.foptions input[type=password],
+.foptions input[type=search],
+.foptions input[type=tel],
+.foptions input[type=time],
+.foptions input[type=url],
+.foptions input[type=week] {
+  padding: 0 0 0 8px;
+}
+.foptions input:disabled,
+.foptions select:disabled,
+.foptions textarea:disabled {
+  background: rgba(255,255,255,.5)!important;
+  border-color: #D9D9D9!important;
+  box-shadow: inset 0 1px 2px rgba(0,0,0,.04)!important;
+  color: rgba(51,51,51,.5)!important;
+}
+.foptions .mybutton {
+  color: #555;
+  border-color: #ccc;
+  background: #f7f7f7;
+  box-shadow: 0 1px 0 #ccc;
+  vertical-align: top;
+}
+.foptions .mybutton:active {
+  background: #eee;
+  border-color: #999;
+  box-shadow: inset 0 2px 5px -3px rgba(0,0,0,.5)!important;
+  transform: translateY(1px);
+}
+.foptions .mybutton:focus {
+  border-color: #5b9dd9;
+  box-shadow: 0 0 3px rgba(0,115,170,.8);
+  color: #23282d;
+}
+.foptions .mybutton:hover {
+  background: #fafafa;
+  border-color: #999;
+  color: #23282d;
+}
+.foptions .mybutton:disabled,
+.foptions .mybutton[disabled] {
+  color: #a0a5aa!important;
+  border-color: #ddd!important;
+  background: #f7f7f7!important;
+  box-shadow: none!important;
+  text-shadow: 0 1px 0 #fff!important;
+  cursor: default;
+  -webkit-transform: none!important;
+  transform: none!important;
+}
+/* блок восстановления css старого wordpress end */
